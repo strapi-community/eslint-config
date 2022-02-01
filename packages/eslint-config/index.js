@@ -1,5 +1,5 @@
 module.exports = {
-  parser: "@babel/eslint-parser",
+  // parser: "@babel/eslint-parser",
   extends: [
     "eslint:recommended",
     "airbnb-base",
@@ -18,7 +18,6 @@ module.exports = {
       experimentalObjectRestSpread: true,
       jsx: false,
     },
-    sourceType: "module",
   },
   globals: {
     strapi: true,
@@ -26,7 +25,9 @@ module.exports = {
   rules: {
     // airbnb overrides
     "import/no-unresolved": "off",
+    "import/no-extraneous-dependencies": "off",
     "node/no-missing-require": "off",
+    "node/no-extraneous-require": "off",
     "no-continue": "off",
     "no-restricted-syntax": [
       "error",
@@ -43,6 +44,9 @@ module.exports = {
     ],
 
     // strapi backend rules
+    strict: ["error", "global"],
+    "no-param-reassign": ["error", { props: false }],
+    "global-require": "off",
     "no-return-await": "error",
     "object-shorthand": [
       "error",
