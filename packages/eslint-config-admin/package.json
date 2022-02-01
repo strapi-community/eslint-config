@@ -1,6 +1,6 @@
 {
   "name": "@strapi-community/eslint-config-admin",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "",
   "keywords": [
     "strapi",
@@ -49,9 +49,9 @@
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-react-app": "^7.0.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-loader": "4.0.2",
     "eslint-import-resolver-webpack": "^0.13.2",
+    "eslint-loader": "4.0.2",
+    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsdoc": "^37.5.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.21.5",
