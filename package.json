@@ -1,0 +1,17 @@
+{
+  "name": "@strapi-community/eslint-config-monorepo",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": [
+    "./packages/*"
+  ],
+  "scripts": {
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "lerna": "^4.0.0",
+    "typescript": "^4.5.4"
+  }
+}
