@@ -2,7 +2,7 @@ module.exports = {
   parser: "@babel/eslint-parser",
   extends: [
     "eslint:recommended",
-    "airbnb",
+    "airbnb-base",
     "plugin:node/recommended",
     "prettier",
   ],
