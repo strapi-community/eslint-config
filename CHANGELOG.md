@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/strapi-community/eslint-config/compare/v0.1.2...v0.1.3) (2022-02-01)
+
+
+### Bug Fixes
+
+* add missing eslint plugin import dependency ([86259e9](https://github.com/strapi-community/eslint-config/commit/86259e9f8501fac3e4c02e28dfdbda8a8e854902))
+
+
+
+
+
 ## [0.1.2](https://github.com/strapi-community/eslint-config/compare/v0.1.1...v0.1.2) (2022-02-01)
 
 
