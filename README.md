@@ -39,7 +39,7 @@ For more information on contributing please see [the contrib message below](#con
 **1. Add plugin dependency**
 
 ```bash
-yarn add eslint @strapi-community/eslint-config
+yarn add -D eslint @strapi-community/eslint-config
 ```
 
 **2. Add `.eslintrc` in the root of your project**
@@ -59,7 +59,7 @@ yarn add eslint @strapi-community/eslint-config
 **1. Add plugin dependency**
 
 ```bash
-yarn add eslint @strapi-community/eslint-config-admin
+yarn add -D eslint @strapi-community/eslint-config-admin
 ```
 
 **2. Add `.eslintrc` in the `admin/src` directory**
