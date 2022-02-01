@@ -1,19 +1,19 @@
 <div align="center">
-<h1>Strapi eslint-config</h1>
+<h1>@strapi-community/eslint-config/admin</h1>
 	
-<p style="margin-top: 0;">Send data to Google Analytics with Measurement Protocol.</p>
+<p style="margin-top: 0;">Shared eslint configuration for strapi admin.</p>
 	
-<!-- <p>
+<p>
   <a href="https://discord.strapi.io">
     <img src="https://img.shields.io/discord/811989166782021633?color=blue&label=strapi-discord" alt="Strapi Discord">
   </a>
-  <a href="https://www.npmjs.org/package/strapi-plugin-measurement-protocol">
-    <img src="https://img.shields.io/npm/v/strapi-plugin-measurement-protocol/latest.svg" alt="NPM Version" />
+  <a href="https://www.npmjs.org/package/@strapi-community/eslint-config-admin">
+    <img src="https://img.shields.io/npm/v/@strapi-community/eslint-config-admin/latest.svg" alt="NPM Version" />
   </a>
-  <a href="https://www.npmjs.org/package/strapi-plugin-measurement-protocol">
-    <img src="https://img.shields.io/npm/dm/strapi-plugin-measurement-protocol" alt="Monthly download on NPM" />
+  <a href="https://www.npmjs.org/package/@strapi-community/eslint-config-admin">
+    <img src="https://img.shields.io/npm/dm/@strapi-community/eslint-config-admin" alt="Monthly download on NPM" />
   </a>
-</p> -->
+</p>
 </div>
 
 ## Table of Contents <!-- omit in toc -->
@@ -21,6 +21,7 @@
 - [🚦 Current Status](#-current-status)
 - [🖐 Installation](#-installation)
 - [🚚 Admin Installation](#-admin-installation)
+- [✨ Usage](#-usage)
 - [Contributing](#contributing)
 - [License](#license)
 
