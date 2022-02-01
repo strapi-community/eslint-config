@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.5](https://github.com/strapi-community/eslint-config/compare/v0.1.4...v0.1.5) (2022-02-01)
+
+
+### Bug Fixes
+
+* re-enable babel parser ([7e1bec0](https://github.com/strapi-community/eslint-config/commit/7e1bec07ed9f4693d38cdb596ff7333d0cd4d461))
+
+
+
+
+
 ## [0.1.4](https://github.com/strapi-community/eslint-config/compare/v0.1.3...v0.1.4) (2022-02-01)
 
 
