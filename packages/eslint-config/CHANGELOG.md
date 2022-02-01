@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/strapi-community/eslint-config/compare/v0.1.3...v0.1.4) (2022-02-01)
+
+
+### Bug Fixes
+
+* allow to load existing modules in app ([8b042fa](https://github.com/strapi-community/eslint-config/commit/8b042faa4c2f06ae24756f0cef7c0f6b289881ff))
+
+
+
+
+
 ## [0.1.3](https://github.com/strapi-community/eslint-config/compare/v0.1.2...v0.1.3) (2022-02-01)
 
 
