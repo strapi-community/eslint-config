@@ -1,0 +1,6 @@
+module.exports = {
+  extends: ["plugin:jest/all"],
+  rules: {
+    "jest/no-hooks": "off",
+  },
+};

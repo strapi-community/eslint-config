@@ -1,0 +1,55 @@
+{
+  "name": "@strapi-community/eslint-config-tests",
+  "version": "0.1.5",
+  "description": "",
+  "keywords": [
+    "strapi",
+    "eslint",
+    "config",
+    "tests",
+    "jest"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Sacha Stafyniak",
+    "email": "sacha@digisquad.io",
+    "url": "https://digisquad.io"
+  },
+  "maintainers": [
+    {
+      "name": "Strapi Community",
+      "url": "https://github.com/strapi-community"
+    },
+    {
+      "name": "Sacha Stafyniak",
+      "email": "sacha@digisquad.io",
+      "url": "https://digisquad.io",
+      "lead": true
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strapi-community/eslint-config-test.git",
+    "directory": "packages/eslint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi-community/eslint-config-test/issues"
+  },
+  "homepage": "https://github.com/strapi-community/eslint-config-test",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "eslint-plugin-jest": "^26.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,17 +1,17 @@
 <div align="center">
-<h1>Strapi eslint-config</h1>
+<h1>@strapi-community/eslint-config/tests</h1>
 	
-<p style="margin-top: 0;">Shared eslint configuration for strapi.</p>
+<p style="margin-top: 0;">Shared eslint configuration for strapi tests.</p>
 	
 <p>
   <a href="https://discord.strapi.io">
     <img src="https://img.shields.io/discord/811989166782021633?color=blue&label=strapi-discord" alt="Strapi Discord">
   </a>
-  <a href="https://www.npmjs.org/package/@strapi-community/eslint-config">
-    <img src="https://img.shields.io/npm/v/@strapi-community/eslint-config/latest.svg" alt="NPM Version" />
+  <a href="https://www.npmjs.org/package/@strapi-community/eslint-config-admin">
+    <img src="https://img.shields.io/npm/v/@strapi-community/eslint-config-tests/latest.svg" alt="NPM Version" />
   </a>
-  <a href="https://www.npmjs.org/package/@strapi-community/eslint-config">
-    <img src="https://img.shields.io/npm/dm/@strapi-community/eslint-config" alt="Monthly download on NPM" />
+  <a href="https://www.npmjs.org/package/@strapi-community/eslint-config-admin">
+    <img src="https://img.shields.io/npm/dm/@strapi-community/eslint-config-tests" alt="Monthly download on NPM" />
   </a>
 </p>
 </div>
@@ -20,7 +20,7 @@
 
 - [🚦 Current Status](#-current-status)
 - [🖐 Installation](#-installation)
-- [🚚 Admin Installation](#-admin-installation)
+- [🚚 Tests Installation](#-tests-installation)
 - [✨ Usage](#-usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -53,33 +53,22 @@ yarn add -D eslint @strapi-community/eslint-config
 > Work in both strapi plugins and strapi app.
 
 
-## 🖐 Admin Installation
+## 🖐 Tests Installation
 
 
 **1. Add plugin dependency**
 
 ```bash
-yarn add -D eslint @strapi-community/eslint-config-admin
+yarn add -D eslint @strapi-community/eslint-config-tests
 ```
 
-**2. Add `.eslintrc` in the `admin/src` directory**
+**2. Add `.eslintrc` in the `tests` directory**
 
 ```json
 {
-  "extends": "@strapi-community/admin"
+  "extends": "@strapi-community/tests"
 }
 ```
-
-> Work in both strapi admin plugins and strapi admin app.
-
-**3. Optionally, add `.eslintrc` in the `tests` directory**
-
-```json
-{
-  "extends": "@strapi-community/test"
-}
-```
-
 
 
 ## ✨ Usage
