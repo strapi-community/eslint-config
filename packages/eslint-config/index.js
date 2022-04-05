@@ -1,6 +1,8 @@
 module.exports = {
   parser: "@babel/eslint-parser",
   extends: [
+    'plugin:markdown/recommended',
+    'plugin:jsonc/recommended-with-jsonc',
     "eslint:recommended",
     "airbnb-base",
     "plugin:node/recommended",
@@ -12,6 +14,23 @@ module.exports = {
     node: true,
     browser: false,
   },
+  ignorePatterns: [
+    '*.min.*',
+    '*.example.js',
+    'CHANGELOG.md',
+    'LICENSE*',
+    '.cache',
+    '.tmp',
+    'build',
+    'coverage',
+    'public',
+    'packages-lock.json',
+    'pnpm-lock.yaml',
+    'yarn.lock',
+    '__snapshots__',
+    '!.github',
+    '!.vscode',
+  ],
   parserOptions: {
     requireConfigFile: false,
     ecmaFeatures: {
@@ -22,6 +41,76 @@ module.exports = {
   globals: {
     strapi: true,
   },
+  overrides: [
+    {
+      files: ['*.json', '*.json5'],
+      parser: 'jsonc-eslint-parser',
+      rules: {
+        'quotes': ['error', 'double'],
+        'quote-props': ['error', 'always'],
+        'comma-dangle': ['error', 'never'],
+      },
+    },
+    {
+      files: ['package.json'],
+      parser: 'jsonc-eslint-parser',
+      rules: {
+        'jsonc/sort-keys': [
+          'error',
+          {
+            pathPattern: '^$',
+            order: [
+              'name',
+              'type',
+              'version',
+              'private',
+              'packageManager',
+              'description',
+              'keywords',
+              'license',
+              'author',
+              'repository',
+              'funding',
+              'main',
+              'module',
+              'types',
+              'unpkg',
+              'jsdelivr',
+              'exports',
+              'files',
+              'bin',
+              'sideEffects',
+              'scripts',
+              'peerDependencies',
+              'peerDependenciesMeta',
+              'dependencies',
+              'optionalDependencies',
+              'devDependencies',
+              'husky',
+              'lint-staged',
+              'eslintConfig',
+            ],
+          },
+          {
+            pathPattern: '^(?:dev|peer|optional|bundled)?[Dd]ependencies$',
+            order: { type: 'asc' },
+          },
+        ],
+      },
+    },
+    {
+      files: ['*.js'],
+      rules: {
+        strict: ["error", "global"],
+      },
+    },
+    {
+      files: ['src/admin/**/*.js', '**/admin/src/**/*.js'],
+      parserOptions: {
+        sourceType: "module",
+      },
+    },
+  ],
   rules: {
     // airbnb overrides
     "import/no-unresolved": "off",
@@ -44,7 +133,6 @@ module.exports = {
     ],
 
     // strapi backend rules
-    strict: ["error", "global"],
     "no-param-reassign": ["error", { props: false }],
     "global-require": "off",
     "no-return-await": "error",
