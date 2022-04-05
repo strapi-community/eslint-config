@@ -5,7 +5,9 @@
   "workspaces": [
     "./packages/*"
   ],
-  "scripts": {},
+  "scripts": {
+    "lerna": "lerna"
+  },
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
