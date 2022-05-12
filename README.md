@@ -53,26 +53,7 @@ yarn add -D eslint @strapi-community/eslint-config
 > Work in both strapi plugins and strapi app.
 
 
-## 🖐 Admin Installation
-
-
-**1. Add plugin dependency**
-
-```bash
-yarn add -D eslint @strapi-community/eslint-config-admin
-```
-
-**2. Add `.eslintrc` in the `admin/src` directory**
-
-```json
-{
-  "extends": "@strapi-community/admin"
-}
-```
-
-> Work in both strapi admin plugins and strapi admin app.
-
-**3. Optionally, add `.eslintrc` in the `tests` directory**
+**2. Optionally, add `.eslintrc` in the `tests` directory**
 
 ```json
 {
