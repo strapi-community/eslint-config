@@ -1,4 +1,5 @@
 module.exports = {
+  ignorePatterns: ["build", "node_modules", ".cache"],
   overrides: [
     {
       files: ['*.json'],
@@ -251,12 +252,6 @@ module.exports = {
     },
     {
       files: ['*.js'],
-      excludedFiles: [
-        'node_module/**/*.js',
-        'tests/**/*.js',
-        'build/**/*.js',
-        '.cache/**/*.js',
-      ],
       env: {
         es2021: true,
         commonjs: true,
