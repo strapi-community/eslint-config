@@ -157,6 +157,9 @@ module.exports = {
         jest: true,
         mocha: true,
       },
+      globals: {
+        strapi: true,
+      },
       parserOptions: {
         requireConfigFile: false,
         ecmaVersion: 'latest',
